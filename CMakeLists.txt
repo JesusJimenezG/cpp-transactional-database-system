@@ -5,7 +5,7 @@ project(TransactionalSystemDatabase
         DESCRIPTION "Sistema transaccional y de control de ventas"
         LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_subdirectory(src)

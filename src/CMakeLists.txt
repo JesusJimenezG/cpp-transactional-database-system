@@ -5,5 +5,5 @@ project(TransactionalSystemDatabase
         DESCRIPTION "Sistema transaccional y de control de ventas"
         LANGUAGES CXX)
 
-add_executable(TransactionalSystemDatabase main.cpp)
-target_compile_features(TransactionalSystemDatabase PRIVATE cxx_std_20)
+add_executable(TransactionalSystemDatabase
+        main.cpp)
